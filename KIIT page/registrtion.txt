@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Registration</title>
+  </head>
+  <body>
+    <form action="submit.php" method="post">
+      <label for="rollno">Roll No:</label>
+      <input type="text" id="rollno" name="rollno"><br><br>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="branch">Branch:</label>
+      <input type="radio" id="cse" name="branch" value="CSE">
+      <label for="cse">CSE</label>
+      <input type="radio" id="ece" name="branch" value="ECE">
+      <label for="ece">ECE</label><br><br>
+      <label for="semester">Semester:</label>
+      <input type="radio" id="s1" name="semester" value="S1">
+      <label for="s1">S1</label>
+      <input type="radio" id="s2" name="semester" value="S2">
+      <label for="s2">S2</label><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
